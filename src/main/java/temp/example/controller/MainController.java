@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @ResponseBody
 public class MainController {
-    @GetMapping("/")
+    @GetMapping("/main")
     public String mainP() {
 
         return "main Controller";
